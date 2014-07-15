@@ -1,0 +1,11 @@
+Creamos una carpeta llamda sl
+
+1- apt-get source sl
+2- cd -sl.03
+4- modificamos sl.h y  agreamos nuestro  nombre
+5- dpkg-buildpack -us -uc
+6- dpkg-source ---commit
+7- dpkg-buildpackage -us -uc
+8- luegos nos vamos a un directorio atras y vemos el .deb
+9- procedemos a instalarlo
+10- sale el tren con nuestro nombre
