@@ -1,0 +1,19 @@
+Creamos una carpeta llamada bmon
+
+1- bajamos el archivo fuente
+2- entras a bmon-2-01
+3- entramos dentro de src
+4- modificamos con out_curses.c out_ascil.c
+5- buscamos los datos de interface
+7- cambiamos los datos de interface por tarjeta de red
+   sunombre y  cambiamos rate por tasa
+8- guardamos los dos archivos
+9- cd ..
+10- dpkg-buildpackage -us -uc
+
+1- el nos creara un .deb
+2- que intalamos el programa dpkg -i paquete
+3- luego probamos el programa
+4- luego subimos a github
+
+
